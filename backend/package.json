@@ -4,15 +4,26 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "author": "Abhisek",
   "license": "ISC",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.9.0",
     "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "cron": "^4.3.0",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.15.0"
+    "libphonenumber-js": "^1.12.8",
+    "mongoose": "^8.15.0",
+    "multer": "^2.0.0",
+    "node-cron": "^4.0.7",
+    "nodecron": "^0.2.0",
+    "openai": "^4.100.0"
   }
 }
