@@ -1,7 +1,7 @@
 //i want to make a cron job that hit a get endpoint every 10 minutes
 const cron = require('node-cron');
 const axios = require('axios');
-const endpoint = 'http://localhost:3000/api/v1/user/test'; // Replace with your actual endpoint
+const endpoint = 'https://yeong-sil.onrender.com/api/v1/user/test'; // Replace with your actual endpoint
 
 
 
